@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero-top {
+    background: linear-gradient(rgba(115, 115, 115, 0.5), rgba(115, 115, 115, 0.5) ), url("https://images.pexels.com/photos/207130/pexels-photo-207130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-about {
+    background: rgb(51, 51, 51);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero-gallery-section{
+    display: none;
+}
+
+.hero-gallery {
+    background-color: #333;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top-content {
+    position: relative;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.intro {
+    line-height: 2.0;
+}
+
+#dif {
+    color: rgba(56, 241, 118, 1);
+}
+
+#layeredimg {
+    display: none;
+    background: url("https://stealthmedia.com/images/Service-Mountains/mountains-Back.png");
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(56, 241, 118, 1);
+    border-radius: 6px;
+}
+#about-heading {
+    color: rgba(56, 241, 118, 0.911);
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+#about-me {
+    padding-top: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    width: 35%;
+    text-align: center;
+}
+
+#about-content {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+    border-radius: 6px;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 0px 10px 2.5px #000;
+    text-shadow: 0px 2px 4px #000;
+}
+
+
+
+.link-wrap {
+    padding-top: 2rem;
+}
+
+.links {
+    padding: 0 2rem;
+    margin: 0 0.5em;
+}
+
+a:hover {
+    border-color: rgba(255, 255, 255, 0.50)
+}
+
+.email {
+    font-size: 0.5em;
+    padding-top: 4rem;
+}
